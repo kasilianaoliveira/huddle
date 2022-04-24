@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  --primary-pink: #ff52bf;
+  --primary-light-pink: #ff8fd8;
+  --primary-light-red: #ff4242;
+  --very-dark-cyan: #00252e;
+  --very-pale-blue: #f6fbff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+
+  color: var(--very-dark-cyan);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  font-size: 100%;
+}
+
+*,
+button,
+input {
+  border: 0;
+  outline: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+.icon-large {
+  margin: 3.125rem 0;
+}
+
+.grow-image {
+  background: hsl(0, 100%, 63%);
+}
+
+.font-center {
+  width: 43%;
+  text-align: center;
+}
